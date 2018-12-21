@@ -85,29 +85,29 @@ author:
   bio              : "Programmer, Traveller"
   location         : "Mumbai, India"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    :
+  email            : "hareesh@live.in"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/HAR33SH"
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/har33sh"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/har33sh/"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/har33sh/"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
