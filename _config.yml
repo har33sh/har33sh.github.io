@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hareesh Kumar"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Hareesh Kumar"
 description              : &description "Masters "
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Hareesh Kumar"
   avatar           : "profile.png"
-  bio              : "Programmer, Traveller"
+  bio              : "M.Tech III, Computer Science"
   location         : "Mumbai, India"
   employer         :
   googlescholar    :
@@ -93,21 +93,21 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/HAR33SH"
+  facebook         : "HAR33SH"
   foursquare       :
-  github           : "https://github.com/har33sh"
+  github           : "har33sh"
   google_plus      :
   keybase          :
-  instagram        : "https://www.instagram.com/har33sh/"
+  instagram        : "har33sh/"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/har33sh/"
+  linkedin         : "har33sh/"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
