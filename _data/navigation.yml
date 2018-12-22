@@ -3,8 +3,8 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
 
   - title: "projects"
     url: /projects/
@@ -26,7 +26,28 @@ main:
   #   url: /portfolio/
   #
 
-  #
+  #  #
+
+    #
+    # - title: "CV"
+    #   url: /cv/
+    #
+    # - title: "Guide"
+    #   url: /markdown/  #
+
+      #
+      # - title: "CV"
+      #   url: /cv/
+      #
+      # - title: "Guide"
+      #   url: /markdown/  #
+
+        #
+        # - title: "CV"
+        #   url: /cv/
+        #
+        # - title: "Guide"
+        #   url: /markdown/
   # - title: "CV"
   #   url: /cv/
   #
