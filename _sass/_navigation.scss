@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /*
-   Breadcrumb navigation links
+   Breadcrumb navigation projects
    ========================================================================== */
 
 .breadcrumbs {
@@ -53,7 +53,7 @@
 
 
 /*
-   Post pagination navigation links
+   Post pagination navigation projects
    ========================================================================== */
 
 .pagination {
@@ -201,7 +201,7 @@
     cursor: pointer;
   }
 
-  .visible-links {
+  .visible-projects {
     display: table;
 
     li {
@@ -249,7 +249,7 @@
     }
   }
 
-  .hidden-links {
+  .hidden-projects {
     position: absolute;
     top: 100%;
     right: 0;
@@ -421,7 +421,7 @@
     font-weight: normal;
   }
 
-  /* hide sub sub links on small screens*/
+  /* hide sub sub projects on small screens*/
   li > ul li {
     display: none;
 

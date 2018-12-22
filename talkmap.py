@@ -4,7 +4,7 @@
 #
 # (c) 2016-2017 R. Stuart Geiger, released under the MIT license
 #
-# Run this from the _links/ directory, which contains .md files of all your links. 
+# Run this from the _projects/ directory, which contains .md files of all your projects. 
 # This scrapes the location YAML field from each .md file, geolocates it with
 # geopy/Nominatim, and uses the getorg library to output data, HTML,
 # and Javascript for a standalone cluster map.

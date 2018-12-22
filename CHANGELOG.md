@@ -122,7 +122,7 @@
 
 ### Bug Fixes
 
-- Fix disappearing author sidebar links [#372](https://github.com/mmistakes/minimal-mistakes/issues/372)
+- Fix disappearing author sidebar projects [#372](https://github.com/mmistakes/minimal-mistakes/issues/372)
 
 ### Maintenance
 
@@ -155,7 +155,7 @@
 
 ### Bug Fixes
 
-- Remove `cursor: pointer` that appears on white-space surrounding author side list items and links. [#354](https://github.com/mmistakes/minimal-mistakes/pull/354)
+- Remove `cursor: pointer` that appears on white-space surrounding author side list items and projects. [#354](https://github.com/mmistakes/minimal-mistakes/pull/354)
 
 ### Maintenance
 
@@ -217,7 +217,7 @@
 
 ### Bug Fixes
 
-- Remove need for "double tapping" masthead menu links on iOS devices. [#315](https://github.com/mmistakes/minimal-mistakes/issues/315)
+- Remove need for "double tapping" masthead menu projects on iOS devices. [#315](https://github.com/mmistakes/minimal-mistakes/issues/315)
 
 ### Maintenance
 
@@ -227,7 +227,7 @@
 
 ### Bug Fixes
 
-- Fix missing category/tag links in post footer due to possible conflict with `site.tags` and `site.categories`. [#329](https://github.com/mmistakes/minimal-mistakes/issues/329#issuecomment-222375568)
+- Fix missing category/tag projects in post footer due to possible conflict with `site.tags` and `site.categories`. [#329](https://github.com/mmistakes/minimal-mistakes/issues/329#issuecomment-222375568)
 
 ## [3.1.8](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.1.8)
 
@@ -261,7 +261,7 @@
 
 ### Maintenance
 
-- Fix `www` and `https` links in author profile include [#293](https://github.com/mmistakes/minimal-mistakes/pull/293)
+- Fix `www` and `https` projects in author profile include [#293](https://github.com/mmistakes/minimal-mistakes/pull/293)
 
 ## [3.1.4](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.1.4)
 
@@ -306,7 +306,7 @@
 ### Enhancements
 
 - Updated [Font Awesome](https://fortawesome.github.io/Font-Awesome/whats-new/) to version 4.6.1
-- Added optional GitHub and Bitbucket links to footer if set on `site.author` in `_config.yml`.
+- Added optional GitHub and Bitbucket projects to footer if set on `site.author` in `_config.yml`.
 
 ### Bug Fixes
 - Fixed Bitbucket URL typo in author sidebar.
@@ -324,16 +324,16 @@
 - Increased the amount of sample posts, sample pages, and sample collections to throughly test the theme and edge-cases.
 - Moved all sample content and assets out of `master` to keep it as clean as possible for forking.
 - Added new layouts for `splash` pages, archives for [`jekyll-archives`](https://github.com/jekyll/jekyll-archives) if enabled, and [`compress.html`](https://github.com/penibelst/jekyll-compress-html) to improve performance.
-- Added taxonomy links to posts (tags and categories).
+- Added taxonomy projects to posts (tags and categories).
 - Added optional "reading time" meta data.
 - Improved Liquid used for Twitter Cards and Open Graph data in `<head>`.
 - Improved `gallery` include helper and added `feature_row` for use with splash page layout.
-- Added Keybase.io, author web URI, and Bitbucket optional links to sidebar.
+- Added Keybase.io, author web URI, and Bitbucket optional projects to sidebar.
 - Add `feed.xml` link to footer.
 - Added a [UI text data file](https://mmistakes.github.io/minimal-mistakes/docs/ui-text/) to easily change all text found in the theme.
 - Added LinkedIn to optional social share buttons.
 - Added Facebook, Google+, and custom commenting options in addition to Disqus.
-- Added optional breadcrumb links.
+- Added optional breadcrumb projects.
 
 ## [2.2.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/2.2.1)
 
@@ -406,7 +406,7 @@
 
 ### Enhancements
 
-- Added new icons and profile links for Stackoverflow, Dribbble, Pinterest, Foursquare, and Steam to the author bio sidebar.
+- Added new icons and profile projects for Stackoverflow, Dribbble, Pinterest, Foursquare, and Steam to the author bio sidebar.
 - Cleaned up the Kramdown auto table of contents styling to be more readable
 - Removed page width specific .less stylesheets and created mixins for easier updating
 - Removed Modernizr since it wasn't being used
@@ -416,14 +416,14 @@
 
 ### Bug Fixes
 
-- Corrected various broken links in README and Theme Setup.
+- Corrected various broken projects in README and Theme Setup.
 
 ## [1.3.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/1.3.1)
 
 ### Enhancements
 
 - Cleaned up table of contents styling
-- Reworked top navigation to be a better experience on small screens. Nav items now display vertically when the menu button is tapped, revealing links with larger touch targets.
+- Reworked top navigation to be a better experience on small screens. Nav items now display vertically when the menu button is tapped, revealing projects with larger touch targets.
 
 ![menu animation](https://camo.githubusercontent.com/3fbd8c1326485f4b1ab32c0005c0fca7660b5d31/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313337363734392f323136343037352f31653366303663322d393465372d313165332d383961612d6436623636376562306564662e676966)
 
@@ -449,8 +449,8 @@
 
 ### Bug Fixes
 
-- Fix top navigation links that weren't click able on small viewports (Issue [#10](https://github.com/mmistakes/minimal-mistakes/issues/10)).
-- Remove line wrap from top navigation links that may span multiple lines.
+- Fix top navigation projects that weren't click able on small viewports (Issue [#10](https://github.com/mmistakes/minimal-mistakes/issues/10)).
+- Remove line wrap from top navigation projects that may span multiple lines.
 
 ## [1.1.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/1.1.2)
 
