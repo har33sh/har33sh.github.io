@@ -1,4 +1,4 @@
-# main links links
+# main projects projects
 main:
   - title: "Projects"
     url: /projects/
@@ -6,8 +6,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Links"
-    url: /links/
+  - title: "projects"
+    url: /projects/
 
   - title: "Resume"
     url: /resume/
@@ -16,8 +16,8 @@ main:
   # - title: "Publications"
   #   url: /publications/
   #
-  # - title: "links"
-  #   url: /links/
+  # - title: "projects"
+  #   url: /projects/
   #
   # - title: "Teaching"
   #   url: /teaching/

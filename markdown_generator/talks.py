@@ -1,9 +1,9 @@
 
 # coding: utf-8
 
-# # links markdown generator for academicpages
+# # projects markdown generator for academicpages
 # 
-# Takes a TSV of links with metadata and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). The core python code is also in `links.py`. Run either from the `markdown_generator` folder after replacing `links.tsv` with one containing your data.
+# Takes a TSV of projects with metadata and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). The core python code is also in `projects.py`. Run either from the `markdown_generator` folder after replacing `projects.tsv` with one containing your data.
 # 
 # TODO: Make this work with BibTex and other databases, rather than Stuart's non-standard TSV format and citation style.
 
@@ -20,7 +20,7 @@ import os
 # - Fields that cannot be blank: `title`, `url_slug`, `date`. All else can be blank. `type` defaults to "Talk" 
 # - `date` must be formatted as YYYY-MM-DD.
 # - `url_slug` will be the descriptive part of the .md file and the permalink URL for the page about the paper. 
-#     - The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/links/YYYY-MM-DD-[url_slug]`
+#     - The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/projects/YYYY-MM-DD-[url_slug]`
 #     - The combination of `url_slug` and `date` must be unique, as it will be the basis for your filenames
 # 
 
@@ -33,8 +33,8 @@ import os
 
 # In[3]:
 
-links = pd.read_csv("links.tsv", sep="\t", header=0)
-links
+projects = pd.read_csv("projects.tsv", sep="\t", header=0)
+projects
 
 
 # ## Escape special characters
@@ -64,21 +64,21 @@ def html_escape(text):
 
 loc_dict = {}
 
-for row, item in links.iterrows():
+for row, item in projects.iterrows():
     
     md_filename = str(item.date) + "-" + item.url_slug + ".md"
     html_filename = str(item.date) + "-" + item.url_slug 
     year = item.date[:4]
     
     md = "---\ntitle: \""   + item.title + '"\n'
-    md += "collection: links" + "\n"
+    md += "collection: projects" + "\n"
     
     if len(str(item.type)) > 3:
         md += 'type: "' + item.type + '"\n'
     else:
         md += 'type: "Talk"\n'
     
-    md += "permalink: /links/" + html_filename + "\n"
+    md += "permalink: /projects/" + html_filename + "\n"
     
     if len(str(item.venue)) > 3:
         md += 'venue: "' + item.venue + '"\n'
@@ -103,9 +103,9 @@ for row, item in links.iterrows():
     md_filename = os.path.basename(md_filename)
     #print(md)
     
-    with open("../_links/" + md_filename, 'w') as f:
+    with open("../_projects/" + md_filename, 'w') as f:
         f.write(md)
 
 
-# These files are in the links directory, one directory below where we're working from.
+# These files are in the projects directory, one directory below where we're working from.
 

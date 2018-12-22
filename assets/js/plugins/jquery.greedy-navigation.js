@@ -7,8 +7,8 @@
 
 var $nav = $('#site-nav');
 var $btn = $('#site-nav button');
-var $vlinks = $('#site-nav .visible-links');
-var $hlinks = $('#site-nav .hidden-links');
+var $vprojects = $('#site-nav .visible-projects');
+var $hprojects = $('#site-nav .hidden-projects');
 
 var breaks = [];
 
@@ -17,13 +17,13 @@ function updateNav() {
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  if($vprojects.width() > availableSpace) {
 
     // Record the width of the list
-    breaks.push($vlinks.width());
+    breaks.push($vprojects.width());
 
     // Move item to the hidden list
-    $vlinks.children().last().prependTo($hlinks);
+    $vprojects.children().last().prependTo($hprojects);
 
     // Show the dropdown btn
     if($btn.hasClass('hidden')) {
@@ -37,14 +37,14 @@ function updateNav() {
     if(availableSpace > breaks[breaks.length-1]) {
 
       // Move the item to the visible list
-      $hlinks.children().first().appendTo($vlinks);
+      $hprojects.children().first().appendTo($vprojects);
       breaks.pop();
     }
 
     // Hide the dropdown btn if hidden list is empty
     if(breaks.length < 1) {
       $btn.addClass('hidden');
-      $hlinks.addClass('hidden');
+      $hprojects.addClass('hidden');
     }
   }
 
@@ -52,7 +52,7 @@ function updateNav() {
   $btn.attr("count", breaks.length);
 
   // Recur if the visible list is still overflowing the nav
-  if($vlinks.width() > availableSpace) {
+  if($vprojects.width() > availableSpace) {
     updateNav();
   }
 
@@ -65,7 +65,7 @@ $(window).resize(function() {
 });
 
 $btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
+  $hprojects.toggleClass('hidden');
   $(this).toggleClass('close');
 });
 
