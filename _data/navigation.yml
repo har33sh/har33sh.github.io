@@ -3,14 +3,18 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Blog"
-    url: /blog/
+  - title: "Blog Posts"
+    url: /year-archive/
 
-  - title: "Links"
+  - title: "links"
     url: /links/
 
-  - title: "Resume"
+  - title: "resume"
     url: /resume/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
   # - title: "Publications"
   #   url: /publications/
   #
@@ -23,8 +27,7 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
   #
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+
   #
   # - title: "CV"
   #   url: /cv/
