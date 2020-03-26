@@ -9,10 +9,9 @@ main:
   - title: "Resume"
     url: /resume/
 
+ - title: "Random"
+   url: /links/
 
-  # - title: "Publications"
-  #   url: /publications/
-  #
   # - title: "projects"
   #   url: /projects/
   #

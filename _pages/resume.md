@@ -17,7 +17,10 @@ Education
 
 Work experience
 ======
-* Jun'16 - till date: Research Assistant
+*Jun' 19 - till date: Data Scientist
+  * Relaince Jio, CoE AI/ML, Hyderabad
+
+* Jun'16 - Jun'19: Research Assistant
   * Smart Energy Informatics Lab, IIT Bombay
   * Managing energy computationally
   * Supervisor: [Prof. Krithi Ramamritham](https://sites.google.com/site/ramamrithamkrithi/home/)
@@ -32,9 +35,11 @@ Work experience
 
 Research Interests
 ======
+* Reinforcement Learning
+* Deep Learning
+* Machine Learning
 * Distributed Systems
 * Internet of Things (IoT)
-* Machine Learning
 * SDN & NFV
 
 Publications
